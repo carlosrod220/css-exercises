@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -44,5 +47,32 @@ a {
 }
 
 ul {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
+
+.left-side {
+  display: flex;
+  gap: 16px;
+  margin: 8px;
+  align-items: center;
+}
+
+.right-side {
+  display: flex;
+  gap: 16px;
+  margin: 8px;
+  align-items: center;
+}
+
+/* .right-side {
+  /* display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 8px;
+} */ */
