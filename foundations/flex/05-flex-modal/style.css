@@ -47,7 +47,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 0;
+  padding: 0;s
 }
 
 button {
@@ -67,3 +67,35 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.page-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;
+}
+
+.page-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px;
+  margin-left: 65px;
+  margin-top: 0;
+  
+}
+
+.options {
+  display: flex;
+  gap: 4px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
