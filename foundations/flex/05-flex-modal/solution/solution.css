@@ -74,6 +74,7 @@ button.cancel {
   display: flex;
   gap: 16px;
   padding: 16px;
+  outline: auto;
 }
 
 .icon {
@@ -88,6 +89,7 @@ button.cancel {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+  outline: auto;
 }
 
 .text {
